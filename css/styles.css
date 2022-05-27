@@ -1,0 +1,15 @@
+:root {
+    --primary-text-color: #555555;
+    --primary-background-color: #ffffff;
+
+
+}
+
+.body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    line-height: 1,67;
+    letter-spacing: 2%
+}
