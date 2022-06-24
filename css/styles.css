@@ -119,6 +119,19 @@ margin-right: 70px;
     font-size: 14px;
     line-height: 1.86;
 }
+
+.sidebar {
+    display: flex;
+    align-items: center; 
+}
+
+.social-list.list{
+    /*display: flex;
+    align-items: center;*/
+    transform: rotate(-90deg);
+    transform-origin: left top;
+}
+
 .preference .subtitle {
     text-transform: none;
     color: var(--title-text-color);
