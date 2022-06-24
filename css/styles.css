@@ -20,6 +20,11 @@
     letter-spacing: 0.02em;
 }
 
+li,
+ul {
+    margin-left: 0px;
+}
+
 .section-title {
     color: var(--title-text-color);
     font-family: 'Raleway', sans-serif; 
@@ -53,12 +58,18 @@
 }
 
 .header {
+    display: flex;
+    align-items: center;
     color: var(--secondary-title-text-color);
     font-size: 12px;
     font-weight: 600;
     line-height: 1.33;
     letter-spacing: 0.01;
    
+}
+
+.logo {
+margin-right: 70px;
 }
 
 .social-list {
@@ -73,6 +84,31 @@
 
 .header-nav .list {
     text-decoration: none;
+    margin-right: 319px;
+    margin-top: 48px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+    
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list.items:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header.contacts{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.tel{
+    margin-right: 60px;
 }
 
 .list {
