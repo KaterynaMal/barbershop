@@ -25,6 +25,14 @@ ul {
     margin-left: 0px;
 }
 
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-title {
     color: var(--title-text-color);
     font-family: 'Raleway', sans-serif; 
@@ -53,13 +61,12 @@ ul {
     color: var(--secondary-text-color);
 }
 
-.darkthem .section-title {
+/*.darkthem .section-title {
     /*color: var(--secondary-title-text-color);         після установки фону - зняти !!!*/
-}
+
 
 .header {
-    display: flex;
-    align-items: center;
+    
     color: var(--secondary-title-text-color);
     font-size: 12px;
     font-weight: 600;
@@ -67,9 +74,15 @@ ul {
     letter-spacing: 0.01;
    
 }
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
 
 .logo {
 margin-right: 70px;
+padding-top: 32px;
 }
 
 .social-list {
@@ -104,12 +117,18 @@ margin-right: 70px;
 .header.contacts{
     display: flex;
     align-items: center;
-    margin-top: 48px;
+    padding-top: 48px;
 }
 
 .tel{
     margin-right: 60px;
+    padding-top: 48px;
 }
+.button {
+    margin-right: 30px;
+    padding-top: 48px;
+}
+
 
 .list {
     list-style: none;
